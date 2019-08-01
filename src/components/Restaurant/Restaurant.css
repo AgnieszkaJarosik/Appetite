@@ -1,0 +1,82 @@
+.Business {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 .5rem 1.5rem .5rem;
+  border: 2px solid #ecece0;
+  border-radius: 15px;
+
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(204,163,83,0.23);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(204,163,83,0.23);
+  box-shadow: 0px 0px 5px -1px rgba(204,163,83,0.23);
+
+  background: #fafaee;
+  scale: 1;
+  transition: all .05s ease-in-out;
+}
+
+.Business:hover {
+  background: 	#fcfcee;
+  transform: scale(1.002);
+}
+
+.Business .image-container {
+  height: 16.66rem;
+}
+
+.Place-about {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.Place-about a {
+  text-decoration: none;
+}
+
+.Business h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #cca353;
+}
+
+.Business-information {
+  color: #c4963b;
+}
+
+.Business-information p {
+  font-size: .88rem;
+  font-weight: 300;
+  line-height: 1rem;
+}
+
+.Business-address {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Business-reviews {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.Business-reviews h3 {
+  color: #868279;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: .8rem;
+}
+
+ .rating {
+  font-size: .88rem;
+  line-height: 1rem;
+  margin: 0 2rem -.2rem 0;
+  color: #868279;
+  font-weight: 700;
+  font-style: italic;
+  display: flex;
+  justify-content: flex-end;
+}
