@@ -1,17 +1,16 @@
-// const apiKey = process.env.REACT_APP_API_KEY;
-const apiKey = 'aaa';
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const Yelp = {
   search (term, location) {
     const url = `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}`
-      return fetch(url, {headers: {Authorization: `Bearer ${apiKey}`} 
+    
+    return fetch(url, {headers: {Authorization: `Bearer ${apiKey}`} 
     }).then ( response => {
       if (response.ok) {
         return response.json();
       }
       throw Error('Request failed!');
-      }, networkError => {
-        console.log(networkError.message);   
+      }, networkError => { 
       }).then ((jsonResponse)=>{
       if(jsonResponse.businesses) {
          return jsonResponse.businesses.map((business)=>{
@@ -31,7 +30,7 @@ const Yelp = {
               
         })
       }
-    }).catch(e => console.log('fail'))
+    }).catch(e => console.log(e.message))
     }
 }
     
