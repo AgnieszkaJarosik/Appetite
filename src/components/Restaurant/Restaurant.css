@@ -75,8 +75,29 @@
   line-height: 1rem;
   margin: 0 2rem -.2rem 0;
   color: #868279;
-  font-weight: 700;
-  font-style: italic;
   display: flex;
   justify-content: flex-end;
+}
+
+@media only screen and (max-width: 560px) {
+  .Business {
+    flex-direction: column;
+  }
+
+  .rating {
+    margin: 1rem 0;
+    justify-content: center;
+  }
+
+  .Business .image-container {
+    height: 9rem;
+  }
+
+  .Place-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
+
 }

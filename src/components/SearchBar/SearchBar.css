@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* height: 25rem; */
 }
 
 .SmallSearchBar {
@@ -60,27 +59,23 @@
 .SearchBar-submit {
   text-align: center;
   position: relative;
-  top: .07rem;
+  top: .055rem;
 }
 
-.SearchBar-submit a {
-  padding: .58rem 1rem;
+.SearchBar-submit i {
+  padding: .54rem 1rem;
   border-radius: 2px;
   background-color: #e4c381;
-  color: #ffffff;
+  color: #fff;
   transition: background-color .5s;
 }
 
-.SearchBar-submit a:hover {
+.SearchBar-submit i:hover {
   cursor: pointer;
   background-color:	#f4c871;
 }
 
 @media only screen and (max-width: 560px) {
-  /* .SearchBar {
-    background-image: url('./background_search_mobile.jpg');
-  } */
-
   .SearchBar-sort-options ul {
     margin-left: 2rem;
     margin-right: 2rem;

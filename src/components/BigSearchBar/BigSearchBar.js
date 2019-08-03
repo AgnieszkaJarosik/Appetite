@@ -25,7 +25,7 @@ class BigSearchBar extends React.Component {
         </div>
         <div className="BigSearchBar-submit"
             onClick={this.handleSearch}>
-          <a>Let's Go</a>
+          <p>Let's Go</p>
         </div>
       </div>
     )
@@ -40,8 +40,6 @@ class BigSearchBar extends React.Component {
   }
   
   handleSearch (event) {
-    let term = this.state.term;
-    let location = this.state.location;
     this.props.searchYelp(this.state.term, this.state.location);
     this.props.onSubmit();
     event.preventDefault();
@@ -53,6 +51,5 @@ class BigSearchBar extends React.Component {
     }
   }
 }
-
 
 export default BigSearchBar;

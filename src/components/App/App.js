@@ -14,19 +14,20 @@ class App extends React.Component {
                    active: 'first' };
 
     this.searchYelp = this.searchYelp.bind(this);
-    this.handleVievChange = this.handleVievChange.bind(this);
+    this.handleViewChange = this.handleViewChange.bind(this);
   }
 
   searchYelp(term, location) {
     Yelp.search(term,location)
-    .then((places)=>{
-      this.setState({places:places})
+    .then( places => {
+      this.setState( {places: places} )
     })
   }
 
-  handleVievChange () {
+  handleViewChange () {
     let newActive = this.state.active === 'first' ? 'second' : 'first';
-    this.setState( {active: newActive} );
+    this.setState( {places:[],
+                   active: newActive} );
   }
 
   render () {
@@ -34,7 +35,7 @@ class App extends React.Component {
       <div className="App">
         <h1>appetite</h1>
         {this.state.active === 'first' ? (
-            <BigSearchBar onSubmit={this.handleVievChange}
+            <BigSearchBar onSubmit={this.handleViewChange}
                           searchYelp={this.searchYelp} />
           ) : this.state.active === 'second' ? (
             <div>
@@ -42,13 +43,13 @@ class App extends React.Component {
               <PlacesList places={this.state.places} />
               <div className="arrow">
                 <i className="icon-left-outline"
-                  onClick={this.handleVievChange}></i></div>
+                  onClick={this.handleViewChange}></i>
+              </div>
             </div>
           ) : null}
       </div>
     );
   }
-  
 }
 
 export default App;

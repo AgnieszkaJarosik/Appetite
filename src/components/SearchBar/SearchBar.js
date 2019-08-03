@@ -27,12 +27,13 @@ class SearchBar extends React.Component {
           </div>
           <div className="SearchBar-submit" 
                 onClick={this.handleSearch}>
-            <a><i className="icon-search-1"></i></a>
+            <i className="icon-search-1"></i>
           </div>
         </div>
       </div>
     )
   }
+  
   handleTermChange (event) {
     this.setState({term: event.target.value});
   }
@@ -42,8 +43,6 @@ class SearchBar extends React.Component {
   }
   
   handleSearch (event) {
-    let term = this.state.term;
-    let location = this.state.location;
     this.props.searchYelp(this.state.term, this.state.location);
     event.preventDefault();
   }

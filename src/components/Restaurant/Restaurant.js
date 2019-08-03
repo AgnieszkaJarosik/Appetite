@@ -31,11 +31,11 @@ class Place extends React.Component {
           </a>
         </div>
         <div className="Place-about">
-          <h3 className="rating">
+          <div className="rating">
                 {this.showStars().map( (star, index) => {
                   return <i className={star} key={index}></i>
                 })}
-          </h3>
+          </div>
           <a href={this.props.place.url} target="_blanc">
             <h2>{this.props.place.name}</h2>
           </a>
@@ -53,11 +53,6 @@ class Place extends React.Component {
       </div>
     )
   }  
-
-
-  newMethod() {
-    console.log(this.full, this.semi, this.empty);
-  }
 }
 
 export default Place;

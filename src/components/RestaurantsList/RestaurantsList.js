@@ -3,6 +3,7 @@ import './RestaurantsList.css';
 import Place from '../Restaurant/Restaurant';
 
 class PlacesList extends React.Component {
+
   render () {
     if (this.props.places) {
       return (
@@ -14,7 +15,7 @@ class PlacesList extends React.Component {
         </div>
       )
     } else {
-      return <div className="BusinessList">Try again</div>
+      return <div className="rejection">Not found</div>
     }
     
   }

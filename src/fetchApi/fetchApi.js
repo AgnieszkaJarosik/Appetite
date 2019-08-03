@@ -10,28 +10,26 @@ const Yelp = {
         return response.json();
       }
       throw Error('Request failed!');
-      }, networkError => { 
       }).then ((jsonResponse)=>{
       if(jsonResponse.businesses) {
-         return jsonResponse.businesses.map((business)=>{
+         return jsonResponse.businesses.map((place)=>{
           return {
-            id: business.id,
-            imageSrc: business.image_url,
-            name: business.name,
-            address: business.location.display_address[0],
-            city: business.location.city,
-            state: business.location.state,
-            zipCode: business.location.zip_code,
-            category: business.categories[0].title,
-            rating: business.rating,
-            reviewCount: business.review_count,
-            url: business.url
-          };
-              
+            id: place.id,
+            imageSrc: place.image_url,
+            name: place.name,
+            address: place.location.display_address[0],
+            city: place.location.city,
+            state: place.location.state,
+            zipCode: place.location.zip_code,
+            category: place.categories[0].title,
+            rating: place.rating,
+            reviewCount: place.review_count,
+            url: place.url
+          }     
         })
       }
     }).catch(e => console.log(e.message))
-    }
+  }
 }
     
 export default Yelp;
