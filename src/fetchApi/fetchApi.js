@@ -8,8 +8,11 @@ const Yelp = {
     }).then ( response => {
       if (response.ok) {
         return response.json();
+      } else if (!apiKey) {
+        throw Error('No API key!');
+      } else {
+        throw Error('Request failed!');
       }
-      throw Error('Request failed!');
       }).then ((jsonResponse)=>{
       if(jsonResponse.businesses) {
          return jsonResponse.businesses.map((place)=>{
@@ -28,7 +31,7 @@ const Yelp = {
           }     
         })
       }
-    }).catch(e => console.log(e.message))
+    }).catch(e => e.message)
   }
 }
     

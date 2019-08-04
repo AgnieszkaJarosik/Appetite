@@ -5,7 +5,7 @@ import Place from '../Restaurant/Restaurant';
 class PlacesList extends React.Component {
 
   render () {
-    if (this.props.places) {
+    if (this.props.places!=='Request failed!' && this.props.places!=='No API key!') {
       return (
         <div className="BusinessList">
           {this.props.places.map( place => {
@@ -15,7 +15,7 @@ class PlacesList extends React.Component {
         </div>
       )
     } else {
-      return <div className="rejection">Not found</div>
+      return <div className="rejection">{this.props.places}</div>
     }
     
   }

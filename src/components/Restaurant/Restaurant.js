@@ -18,7 +18,6 @@ class Place extends React.Component {
     for (let i=0; i<empty; i++) {
       starsArray.push("icon-star-empty");
     }
-
     return starsArray;
   }
 
