@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Appetite/static/css/main.5821a617.chunk.css",
+    "main.js": "/Appetite/static/js/main.00a1289e.chunk.js",
+    "main.js.map": "/Appetite/static/js/main.00a1289e.chunk.js.map",
+    "runtime~main.js": "/Appetite/static/js/runtime~main.bca9fa71.js",
+    "runtime~main.js.map": "/Appetite/static/js/runtime~main.bca9fa71.js.map",
+    "static/js/2.ce5e4dec.chunk.js": "/Appetite/static/js/2.ce5e4dec.chunk.js",
+    "static/js/2.ce5e4dec.chunk.js.map": "/Appetite/static/js/2.ce5e4dec.chunk.js.map",
+    "index.html": "/Appetite/index.html",
+    "precache-manifest.cae714acb93b8724d6b829ca19ef0176.js": "/Appetite/precache-manifest.cae714acb93b8724d6b829ca19ef0176.js",
+    "service-worker.js": "/Appetite/service-worker.js",
+    "static/css/main.5821a617.chunk.css.map": "/Appetite/static/css/main.5821a617.chunk.css.map",
+    "static/media/BigSearchBar.css": "/Appetite/static/media/background.3aebbbc8.jpg",
+    "static/media/App.css": "/Appetite/static/media/background.952cb93e.png",
+    "static/media/fontello.css": "/Appetite/static/media/fontello.ecf925db.woff"
+  }
+}
