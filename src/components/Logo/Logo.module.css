@@ -1,8 +1,5 @@
 .appetite {
-  /* font-family: 'Megrim' ; */
-  /* font-family: 'Lobster Two' ; */
   font-family: 'Kaushan Script' ;
-  /* font-family: 'Righteous'; */
   font-weight: bold;
   letter-spacing: .09rem;
   font-size: 2.2rem;
@@ -29,12 +26,10 @@
 
 .small:hover {
   cursor: pointer;
-  /* background-color: var(--hoover-bg-color); */
 }
 
 .dark {
   background-color: transparent;
-  /* color: var(--main-bg-color); */
   color: #fff;
   font-size: 1.5rem;
   margin: -0.3rem 0 1rem 5rem;
