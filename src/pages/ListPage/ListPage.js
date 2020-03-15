@@ -16,9 +16,6 @@ const ListPage = ( props ) => {
     handleSearch ({term, location, sortBy:'best_match', price: '1', openNow: false});
   }, []);
 
-  // Dopisać też wyszukiwanie na wciśnięcie Enter
-  // Dopisać wyszukiwanie po kliknięciu opcji
-
   async function handleSearch ({ term, location, sortBy, price, openNow }) {
     try {
       const placesList = await Yelp.search(term, location, sortBy, price, openNow);

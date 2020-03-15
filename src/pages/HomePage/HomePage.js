@@ -25,7 +25,6 @@ const HomePage = () => {
               style='main'
               placeholder="Gdzie?"
               onChange={ (value) => setLocation(value) }
-              // onKeyDown={this.handleKeyDown}
             />
             <Link to={{
               pathname:"/list",
@@ -40,14 +39,5 @@ const HomePage = () => {
     </>
   );
 }
-
-// Jak obsłużyć przejście na podany link po keyDown === "Enter"?
-
-//   handleKeyDown(event) {
-//     if (event.key === "Enter") {
-//       this.handleSearch(event);
-//     }
-//   }
-// }
 
 export default HomePage;
