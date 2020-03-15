@@ -1,0 +1,52 @@
+.button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: .72rem 1.7rem;
+  color: #ffffff;
+  transition: all ease-in-out .4s;
+  border-radius: 4px;
+}
+
+.small {
+  height: 1.7rem;
+  width: 4.7rem;
+  font-size: .9rem;
+  padding: .3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large {
+  height: 2.9rem;
+  width: 3rem;
+  font-size: 1.2rem;
+}
+
+.gold {
+  background-color: #cca353;
+  border-width: 0px;
+}
+
+.transparent {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.transparent:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--main-bg-color);
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--main-bg-color);
+  border: none;
+}
+
+.button:focus {
+  outline: none;
+}

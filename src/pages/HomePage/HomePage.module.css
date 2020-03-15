@@ -1,0 +1,33 @@
+.imgContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 32rem;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.88rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .BigSearchBar {
+    display: flex;
+    align-items: center;
+  }
+  .BigSearchBar-fields {
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+  }
+
+  .BigSearchBar-fields input {
+    margin-right: 0;
+    margin-bottom: .86rem;
+  }
+}

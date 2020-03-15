@@ -1,0 +1,23 @@
+.input {
+  width: 21rem;
+  height: 1.6rem;
+  padding: .66rem 1rem;
+  border-radius: 4px;
+  font-family: 'BenchNine';
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .04rem;
+  border: .5px solid var(--main-bg-color);
+}
+
+.main {
+  margin-right: .5rem;
+}
+
+.minor {
+  margin: none;
+}
+
+input:last-child {
+  margin-right: 0;
+}

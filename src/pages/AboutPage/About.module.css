@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 8fr 1fr;
+  grid-template-rows: .5fr 1fr 3fr 0.5fr 0.5fr;
+  font-family: Lato;
+}
+
+.topBar {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  background-color: var(--main-bg-color);
+}
+
+.header {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  color: var(--font-two);
+  align-self: end;
+  font-size: 2rem;
+}
+
+.content {
+  grid-column: 2/4;
+  grid-row: 3/4;
+  color: var(--font-two);
+  font-size: .9rem;
+  padding: 1rem 0;
+}
+
+.content p {
+  padding: 1rem 0;
+}
+

@@ -1,8 +1,23 @@
-/* Universal Styles */
+:root {
+  --main-bg-color: #cca353;
+  --hoover-bg-color: #a7874b;
+  --minor-bg-color: #fff;
+  --minor-hover-color: #ffffeb;
+  --minor-border-color: #ecece0;
+  --font-color: #868279;
+  --font-two: #43413d;
+}
 
 html {
   font-size: 18px;
-  background-image: url(./background.png);
+  /* background-image: url(./background.png); */
+  /* background-color: 	#FAFAEE; */
+  background-color: rgb(254, 254, 254);
+}
+
+a {
+  color: none;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 560px) {
@@ -35,17 +50,17 @@ input:focus {
 
 .App {
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  min-height: 100vh;
 }
 
-h1 {
-  padding: .7rem 0;
-  text-align: center;
-  background-color: #cca353;
-  font-size: 1.8rem;
-  color: #fff;
+.content {
+  padding-bottom: 2.5rem;
 }
 
-.arrow {
+
+
+/* .arrow {
   background-color: #cca353;
   padding: 1rem;
   margin: 1rem;
@@ -61,4 +76,4 @@ h1 {
 
 .arrow i {
   color: #fff;
-}
+} */
