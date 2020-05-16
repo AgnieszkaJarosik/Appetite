@@ -1,6 +1,6 @@
 const Yelp = {
   search (term, location, sort, price, openNow=false) {
-    const url = `/yelp?term=${term}&location=${location}&sort_by=${sort}&price=${price}&open_now=${openNow}`;
+    const url = `https://appetiteapi.herokuapp.com/yelp?term=${term}&location=${location}&sort_by=${sort}&price=${price}&open_now=${openNow}`;
 
       return fetch(url)
       .then ( response => {
