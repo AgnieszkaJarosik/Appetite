@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Appetite/static/css/main.8cf6214a.chunk.css",
-    "main.js": "/Appetite/static/js/main.e65d3553.chunk.js",
-    "main.js.map": "/Appetite/static/js/main.e65d3553.chunk.js.map",
+    "main.js": "/Appetite/static/js/main.989c5999.chunk.js",
+    "main.js.map": "/Appetite/static/js/main.989c5999.chunk.js.map",
     "runtime-main.js": "/Appetite/static/js/runtime-main.cf02e3f8.js",
     "runtime-main.js.map": "/Appetite/static/js/runtime-main.cf02e3f8.js.map",
     "static/js/2.a915d340.chunk.js": "/Appetite/static/js/2.a915d340.chunk.js",
     "static/js/2.a915d340.chunk.js.map": "/Appetite/static/js/2.a915d340.chunk.js.map",
     "index.html": "/Appetite/index.html",
-    "precache-manifest.d47d832734945aa3b1624eaa98054fe5.js": "/Appetite/precache-manifest.d47d832734945aa3b1624eaa98054fe5.js",
+    "precache-manifest.53dfb8fc9f7128fe9db7fc75d13456b4.js": "/Appetite/precache-manifest.53dfb8fc9f7128fe9db7fc75d13456b4.js",
     "service-worker.js": "/Appetite/service-worker.js",
     "static/css/main.8cf6214a.chunk.css.map": "/Appetite/static/css/main.8cf6214a.chunk.css.map",
     "static/js/2.a915d340.chunk.js.LICENSE.txt": "/Appetite/static/js/2.a915d340.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.cf02e3f8.js",
     "static/js/2.a915d340.chunk.js",
     "static/css/main.8cf6214a.chunk.css",
-    "static/js/main.e65d3553.chunk.js"
+    "static/js/main.989c5999.chunk.js"
   ]
 }
