@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34c37058a17067f20753ef6dece9318d",
+    "revision": "9c0664834bc59b0f4ef0d6942c2d4366",
     "url": "/Appetite/index.html"
   },
   {
-    "revision": "05982804f861658d8f94",
-    "url": "/Appetite/static/css/main.5821a617.chunk.css"
+    "revision": "76877bfa02927520a7fe",
+    "url": "/Appetite/static/css/main.c6fdc33c.chunk.css"
   },
   {
-    "revision": "21c178a277b6f64868c8",
-    "url": "/Appetite/static/js/2.ce5e4dec.chunk.js"
+    "revision": "158eb5a37ad193fa3f93",
+    "url": "/Appetite/static/js/2.0f42aac2.chunk.js"
   },
   {
-    "revision": "05982804f861658d8f94",
-    "url": "/Appetite/static/js/main.00a1289e.chunk.js"
+    "revision": "1bd38dfc7f3d19772812daabb914b1ec",
+    "url": "/Appetite/static/js/2.0f42aac2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a00ee3c5e8c619664ee",
-    "url": "/Appetite/static/js/runtime~main.bca9fa71.js"
+    "revision": "76877bfa02927520a7fe",
+    "url": "/Appetite/static/js/main.376e93da.chunk.js"
+  },
+  {
+    "revision": "9187ade3847e0da0357f",
+    "url": "/Appetite/static/js/runtime-main.cf02e3f8.js"
   },
   {
     "revision": "3aebbbc88bb58e0df9a76d95318e3d3e",
     "url": "/Appetite/static/media/background.3aebbbc8.jpg"
-  },
-  {
-    "revision": "952cb93e5881707dd59413e7d38ee74e",
-    "url": "/Appetite/static/media/background.952cb93e.png"
   },
   {
     "revision": "281ecce390431200f1fda8c828a17175",
