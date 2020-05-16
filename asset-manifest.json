@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Appetite/static/css/main.c6fdc33c.chunk.css",
+    "main.js": "/Appetite/static/js/main.376e93da.chunk.js",
+    "main.js.map": "/Appetite/static/js/main.376e93da.chunk.js.map",
+    "runtime-main.js": "/Appetite/static/js/runtime-main.cf02e3f8.js",
+    "runtime-main.js.map": "/Appetite/static/js/runtime-main.cf02e3f8.js.map",
+    "static/js/2.0f42aac2.chunk.js": "/Appetite/static/js/2.0f42aac2.chunk.js",
+    "static/js/2.0f42aac2.chunk.js.map": "/Appetite/static/js/2.0f42aac2.chunk.js.map",
+    "index.html": "/Appetite/index.html",
+    "precache-manifest.59f844aa61e94b41a0f305f6668a2201.js": "/Appetite/precache-manifest.59f844aa61e94b41a0f305f6668a2201.js",
+    "service-worker.js": "/Appetite/service-worker.js",
+    "static/css/main.c6fdc33c.chunk.css.map": "/Appetite/static/css/main.c6fdc33c.chunk.css.map",
+    "static/js/2.0f42aac2.chunk.js.LICENSE.txt": "/Appetite/static/js/2.0f42aac2.chunk.js.LICENSE.txt",
+    "static/media/HomePage.module.css": "/Appetite/static/media/background.3aebbbc8.jpg",
+    "static/media/fontello.css": "/Appetite/static/media/fontello.ecf925db.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf02e3f8.js",
+    "static/js/2.0f42aac2.chunk.js",
+    "static/css/main.c6fdc33c.chunk.css",
+    "static/js/main.376e93da.chunk.js"
+  ]
+}
