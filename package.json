@@ -21,6 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "proxy": "https://appetiteapi.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },

@@ -31,8 +31,9 @@ const HomePage = () => {
               state: { term, location }
               }} 
             >
-              <Button color='gold' 
-                      size='large' />
+            <Button color='gold' 
+                    size='large' 
+            />
             </Link>
         </div>
       </div>

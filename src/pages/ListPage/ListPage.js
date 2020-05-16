@@ -8,9 +8,10 @@ import styles from "./ListPage.module.css";
 
 const ListPage = ( props ) => {
   const [places, setPlaces] = useState([]);
+  console.log(places);
 
-  const term = props.location.state || 'restauracja';
-  const location = props.location.state || 'Warszawa';
+  const term = props.location.state.term || 'restauracja';
+  const location = props.location.state.location || 'Warszawa';
 
   useEffect(() => {
     handleSearch ({term, location, sortBy:'best_match', price: '1', openNow: false});

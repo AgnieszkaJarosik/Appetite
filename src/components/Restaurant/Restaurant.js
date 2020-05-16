@@ -2,6 +2,25 @@ import React from 'react';
 import styles from './Restaurant.module.css';
 
 const Place = ( props ) => {
+  const showStars = () => {
+    const starsArray = [];
+  
+    const full = Math.floor(props.place.rating);
+    const empty = 5 - Math.ceil(props.place.rating);
+    const semi = 5 - full - empty;
+  
+    for (let i=0; i<full; i++) {
+      starsArray.push("icon-star");
+    }
+    for (let i=0; i<semi; i++) {
+      starsArray.push("icon-star-half-alt");
+    }
+    for (let i=0; i<empty; i++) {
+      starsArray.push("icon-star-empty");
+    }
+    return starsArray;
+  }
+  
     return(
       <div className={styles.business}>
         <div className={styles.imageContainer}>
@@ -12,9 +31,9 @@ const Place = ( props ) => {
         <div className={styles.placeAbout}>
           <div className={styles.rating}>
             {props.rating}
-                {/* {showStars().map( (star, index) => {
+                {showStars().map( (star, index) => {
                   return <i className={star} key={index}></i>
-                })} */}
+                })}
           </div>
           <a href={props.place.url} target="_blanc">
             <h2>{props.place.name}</h2>
@@ -32,25 +51,6 @@ const Place = ( props ) => {
         </div>
       </div>
     )   
-}
-
-const showStars = () => {
-  const starsArray = [];
-
-  const full = Math.floor(this.props.place.rating);
-  const empty = 5 - Math.ceil(this.props.place.rating);
-  const semi = 5 - full - empty;
-
-  for (let i=0; i<full; i++) {
-    starsArray.push("icon-star");
-  }
-  for (let i=0; i<semi; i++) {
-    starsArray.push("icon-star-half-alt");
-  }
-  for (let i=0; i<empty; i++) {
-    starsArray.push("icon-star-empty");
-  }
-  return starsArray;
 }
 
 export default Place;

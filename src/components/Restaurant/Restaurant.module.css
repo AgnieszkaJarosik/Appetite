@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-height: 9rem;
   margin: 0 .5rem .5rem .5rem;
   border: 2px solid var(--minor-border-color);
   border-radius: 5px;
@@ -17,9 +18,14 @@
 
 .business .imageContainer img{
   width: 15rem;
-  height: auto;
+  min-height: 9rem;
   max-height: 12rem;
   margin: .5rem;
+}
+
+.business .imageContainer img{
+  width: 15rem;
+  height: auto;
 }
 
 .placeAbout {
